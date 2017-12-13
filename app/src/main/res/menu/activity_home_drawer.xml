@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_tractor"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_karshagasena"
+            android:icon="@drawable/ic_karshagasena"
+            android:title="Karshakasena" />
+        <!--<item-->
+            <!--android:id="@+id/nav_profilesettings"-->
+            <!--android:icon="@drawable/profilesettings"-->
+            <!--app:showAsAction="never"-->
+            <!--android:title="@string/profilesettings" />-->
+        <item
+            android:id="@+id/nav_changepassword"
+            android:icon="@drawable/changepassword"
+            app:showAsAction="never"
+
+            android:title="@string/changepassword" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_bookinng"
+            android:title="@string/bookings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_aboutus"
+            android:title="@string/About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/Logout" />
+
+    </group>
+
+
+
+</menu>

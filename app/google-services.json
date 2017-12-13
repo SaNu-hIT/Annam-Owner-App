@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "151792093734",
+    "firebase_url": "https://owner-app-ee7e6.firebaseio.com",
+    "project_id": "owner-app-ee7e6",
+    "storage_bucket": "owner-app-ee7e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151792093734:android:3d02152771fc421a",
+        "android_client_info": {
+          "package_name": "com.annam.annamownernew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151792093734-ogdj2tn7ghfu666mp9flq8jiqsoiq1mt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4UTAtALxn20hkp30NEaF5QsBHHr6LLbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

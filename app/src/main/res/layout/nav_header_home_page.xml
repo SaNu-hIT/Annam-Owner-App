@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+android:layout_margin="20dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/logo"/>
+        <com.annam.annamownernew.customfonts.MyTextViewHead
+
+            android:id="@+id/personname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person name"
+            android:textSize="17sp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20dp"
+
+            android:id="@+id/addimagebutton"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/add_icon"/>
+        <com.annam.annamownernew.customfonts.MyTextViewHead
+android:id="@+id/personname_id"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Person name"
+            android:textSize="17sp"
+            android:textColor="#0a0909"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

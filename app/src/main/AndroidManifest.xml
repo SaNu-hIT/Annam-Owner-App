@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.annam.annamownernew">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.annam.annamownernew.PickLocationHelper"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_owner_rect"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name="com.annam.annamownernew.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.annam.annamownernew.Owner_Home"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name="com.annam.annamownernew.Ui.AddMachineActivity" />
+        <activity android:name="com.annam.annamownernew.Ui.EditKarshakasenaActivity" />
+        <activity android:name="com.annam.annamownernew.Ui.AddKarshakasenaActivity" />
+        <activity
+            android:name="com.annam.annamownernew.Ui.AboutActivity"
+            android:label="@string/app_name" />
+        <activity android:name="com.annam.annamownernew.Signup" />
+        <activity
+            android:name="com.annam.annamownernew.PickLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.annam.annamownernew.Ui.EditMachineActivity" />
+        <activity
+            android:name="com.annam.annamownernew.Ui.ForgotPasswordActivity"
+            android:label="Forgot Password" />
+
+        <service android:name="com.annam.annamownernew.Services.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.annam.annamownernew.Services.FirebaseIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.annam.annamownernew.Ui.TestActivity"
+            android:label="@string/title_activity_test"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.annam.annamownernew.test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/MyMaterialTheme"></activity>
+    </application>
+
+</manifest>

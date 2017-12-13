@@ -1,0 +1,115 @@
+<resources>
+    <string name="app_name">Annam Owner App</string>
+
+    <string-array name="machine_spinner">
+        <item>Vehicle + Fuel + Driver</item>
+        <item>Vehicle + Fuel</item>
+        <item>Vehicle + Driver</item>
+        <item>Vehicle only</item>
+    </string-array>
+    <string-array name="cocunut_tree_item">
+
+        <item>Vehicle + Driver</item>
+        <item>Vehicle only</item>
+    </string-array>
+    <string-array name="karshagasena_item">
+
+        <item>test1</item>
+        <item>test 2</item>
+    </string-array>
+
+
+    <string name="Password">Password</string>
+    <string name="signup">Signup</string>
+    <string name="error_field_required">Error Field Required</string>
+    <string name="home">Home</string>
+    <string name="profilesettings">Profile Settings</string>
+    <string name="changepassword">Change Password</string>
+    <string name="bookings">Bookings</string>
+    <string name="Logout">Logout</string>
+    <string name="About">About</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="oldpassword">Current Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="ok">OK</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="signup_address">Address</string>
+    <string name="email">Email</string>
+    <string name="location">Select Location</string>
+    <string name="signup_cofirmpassword">Confirm Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="eula_string">COPYRIGHTS:
+
+\nCopyright 2016 AnnamAgroTech. All Rights Reserved.
+
+\n\nThis software may not, in whole or in any part, be copied, reproduced, transmitted, translated (into any
+language, natural or computer), stored in a retrieval system, reduced to any electronic medium or machine readable
+format, or by any other form or means without prior consent, in writing, from AnnamAgroTech.
+
+\n\nYou are granted a limited license to use this software. The software may be used or copied only in accordance
+with the terms of that license, which is described in the following paragraphs.
+
+\n\nUSER:
+\n\nThe driver of the vehicle shall be considered as the user and all transactions will be executed between the user and Annam agrotech.
+
+\n\nAGE:
+\n\nThe user must be above the age of 21 years.
+
+\n\nDOCUMENTS REQUIRED:
+\n\n1. The user must have a valid driving license issued by the Government of India.
+\n\n2. The user must scan his/her license and upload it on Annamagrotech.com
+\n\n3. Documents issued by the government of India such as Voter ID, Driver’s license, PAN card etc. will be considered as valid ID proof only.
+\n\n4. The user must scan the vehicle Registration Certificate and upload it on Annamagrotech.com
+\n\n5. Annam is not charging any fees / brokerage  presently.
+\n\n6. User should talk and clarify about the job with the client. No type of complains/disputes will be entertained by annamagrotech.com
+
+\n\nTRADEMARKS:
+\n\n[Software logos, icons, etc that are Trademarked]
+
+\n\nLICENSE:
+\n\n\"THE SOFTWARE\" shall be taken to mean the software contained in this app and any subsequent versions
+or upgrades received as a result of having purchased this app. \"BUYER\" shall be taken as the original
+purchaser of the software.
+
+\n\nBuyer has the non-exclusive right to the use of software only on a single device. Buyer may not electronically
+transfer the program from one device to another over any type of network. Buyer may not distribute copies
+of the software or the accompanying documentation to others either for a fee or without charge. Buyer may not modify
+or translate the program or documentation. User may not disassemble the program or allow it to be disassembled
+into its constituent source code. Buyer\'s use of the software indicates his/her acceptance of these terms
+and conditions. If buyer does not agree to these conditions, return the distribution media, documentation, and
+associated materials to the vendor from whom the software was purchased, and/or uninstall the software from the device,
+and erase the software from any and all storage devices upon which it may have been installed.
+
+\n\nThis license agreement shall be governed by the laws of India, Kerala and
+shall inure to the benefit of AnnamAgroTech or its assigns.
+
+\n\nDISCLAIMER / LIMITATION OF LIABILITY:
+\n\nBuyer acknowledges that the software may not be free from defects and may not satisfy all of buyer\'s
+needs. AnnamAgroTech warrants all media on which the software is distributed for 60 days to be free from defects
+in normal use. The software and any accompanying written materials are licensed \"AS IS\". Buyer\'s exclusive
+remedy during the warranty period (if any) shall consist of replacement of distribution media if determined to be
+faulty. In no event will AnnamAgroTech be liable for direct, indirect, incidental or consequential damage or
+damages resulting from loss of use, or loss of anticipated profits resulting from any defect in the software,
+even if it has been advised of the possibility of such damage. Some laws do not allow exclusion or limitation
+of implied warranties or liabilities for incidental or consequential damages, so the above limitations or
+exclusion may not apply.
+
+\n\nSPECIFIC RESTRICTIONS:
+\n\nIn accordance with the COMPUTER SOFTWARE RENTAL ACT OF 1990, this software may not be rented, lent or leased.
+\n\nThe software and accompanying documentation may not be provided by a \"Backup Service\" or any other vendor
+which does not provide an original package as composed of AnnamAgroTech, including but not limited to all original
+distribution media, documentation, registration cards, and insertions.</string>
+    <string name="forgot_text">Please enter a valid Email ID</string>
+    <string name="title">Owner App v1.0.0.4</string>
+    <string name="about_logo_content_description">Image of Annam logo</string>
+    <string name="copyright1">© 2016-2017 AnnamAgroTech.\nAll rights reserved.</string>
+    <string name="view_licenses">EULA</string>
+    <string name="title_activity_test">TestActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

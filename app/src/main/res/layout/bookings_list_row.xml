@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:background="@color/white"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+android:elevation="4dp"
+            android:background="@color/white"
+            android:layout_margin="4dp"
+            android:layout_weight="2.66"
+         >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_bookingid"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Booking ID"
+                            android:padding="10dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_machinename"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Machine Name"
+                            android:padding="10dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+android:layout_weight="1"
+                        android:visibility="gone"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_machineno"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Machine number"
+                            android:padding="10dp"
+                            android:singleLine="true" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_machinetype"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Machine Type"
+                            android:padding="10dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_ownername"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name"
+                            android:padding="10dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_ownerphone"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone"
+
+                            android:padding="10dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_date"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Date"
+                            android:padding="10dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_exptime"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Amount"
+                            android:padding="10dp"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <com.annam.annamownernew.customfonts.MyTextView
+                        android:id="@+id/td_amount"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Amount"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.annam.annamownernew.customfonts.MyTextView
+                            android:id="@+id/td_location"
+android:drawableLeft="@drawable/ic_edit_location_black_24dp"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="location"
+                            android:layout_gravity="center"
+                            android:gravity="center|left"
+                            android:padding="10dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--<LinearLayout-->
+                <!--android:orientation="vertical"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<MyTextViewView&ndash;&gt;-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="Days"-->
+                <!--android:textSize="20sp"-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/td_daystitle"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<EditText-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/td_days"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<MyTextViewView&ndash;&gt;-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="Hours"-->
+                <!--android:textSize="20sp"-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/td_hourstitle"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<EditText-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/td_hours"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<MyTextViewView&ndash;&gt;-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:text="Mints"-->
+                <!--android:textSize="20sp"-->
+                <!--android:gravity="center"-->
+                <!--android:id="@+id/td_mintstitle"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--<LinearLayout-->
+                <!--android:layout_width="60dp"-->
+                <!--android:layout_height="40dp">-->
+                <!--<EditText-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/td_mints"-->
+                <!--android:padding="10dp"-->
+                <!--android:singleLine="true"-->
+                <!--android:visibility="invisible"/>-->
+                <!--</LinearLayout>-->
+                <!--</LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="vertical">
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/td_btncancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" android:layout_weight="1"
+                        style="@style/Base.Widget.AppCompat.Button.Colored"
+
+                        android:onClick="cancelFromBookings"
+                        android:text="CANCEL" />
+
+
+
+
+                        <Button
+                            android:id="@+id/td_btnend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+android:layout_weight="1"
+                            style="@style/Base.Widget.AppCompat.Button.Colored"
+                            android:onClick="endTrip"
+                            android:text="End"
+                            android:visibility="invisible"/>
+
+                    <Button
+                        android:id="@+id/td_btnstart"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/Base.Widget.AppCompat.Button.Colored"
+                        android:layout_gravity="top|left|bottom|center|right"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:onClick="startTrip"
+                        android:text="Start" />
+
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
